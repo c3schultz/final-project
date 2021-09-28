@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name='viewport' content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="final-project.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Movie Miner (final project)</title>
+  </head>
+  <body> 
+   <header>
+      <form id='form'>
+        <input type="text" placeholder="Search" id="search" class="search">
+      </form>
+    </header> 
+    <h1 style="border: 1px blue;">Movie Miner</h1>
+    <h3 id='myTag'>We help you find movies to watch!</h3>
+    <div id=mediaBtns class="center">
+      <label id="contentSelector" for="contentSelector">Chose a category:</label>   
+    </div>
+    
+        <button id='popMovieBtn' class="center">Popular Movies</button>
+        <button id='newMovieBtn'class="center">New Releases</button>
+
+    
+
+    <main id="mainPop" class='center'>
+      <div class="movie">
+        <img src="https://image.tmdb.org/t/p/w500/qPKw2w4Ya5ZoOaxUDK1czRskQBT.jpg" alt="image">
+        <div class="movie-info">
+          <h4>Movie Title</h4>
+          <span class="Green">9.8</span>
+        </div>
+        <div class="overview">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, rerum exercitationem magnam ea accusantium illum sunt odit totam dolores ullam fuga a eaque quisquam facere vero molestias veniam enim nemo.
+        </div>
+      </div>
+    </main>
+
+    <main id="mainNew" class='center'>
+      <div class="movie">
+        <img src="https://image.tmdb.org/t/p/w500/qPKw2w4Ya5ZoOaxUDK1czRskQBT.jpg" alt="image">
+        <div class="movie-info">
+          <h4>Movie Title</h4>
+          <span class="Green">9.8</span>
+        </div>
+        <div class="overview">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, rerum exercitationem magnam ea accusantium illum sunt odit totam dolores ullam fuga a eaque quisquam facere vero molestias veniam enim nemo.
+        </div>
+      </div>
+    </main>
+
+    <div id='tmdb'>
+      <h4>Powered by TMDB</h4>
+      <img
+      id="apiTag"
+      src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_long_2-9665a76b1ae401a510ec1e0ca40ddcb3b0cfe45f1d51b77a308fea0845885648.svg"
+      />
+    </div>
+
+  </body>
+  <script src="final-project.js" defer></script>
+</html>
