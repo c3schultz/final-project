@@ -9,7 +9,7 @@ This project was an attempt at making a site where the user can view new movie r
 First download all code files onto your computer, or copy the files from the repository into your own files accordingly. From there, open the files in an application like Visual Studio Code. Once you reach this point, simply "go live" (open in a browser) from the HTML file and enjoy.
 
 Additionally, you can follow this link to view the project.
-https://c3schultz.github.io/final-project/
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
