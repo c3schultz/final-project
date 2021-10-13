@@ -13,8 +13,10 @@ const mainPop = document.getElementById('mainPop');
 popBtn.onclick=function(){
   if (mainPop.style.display !== 'none'){
     mainPop.style.display = 'none';
+    mainNew.style.display = 'none';
   } else {
     mainPop.style.display = 'block';
+    mainNew.style.display = 'none';
   }
 };
 
@@ -23,8 +25,10 @@ const mainNew = document.getElementById('mainNew');
 newBtn.onclick=function(){
   if (mainNew.style.display !== 'none'){
     mainNew.style.display = 'none';
+    mainPop.style.display = 'none';
   } else {
     mainNew.style.display = 'block';
+    mainPop.style.display = 'none';
   }
 };
 
